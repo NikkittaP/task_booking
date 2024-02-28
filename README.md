@@ -28,7 +28,9 @@ Follow these steps to run the application:
 3. **(Local Build)** Build the application using CMake:
 
     ```bash
-    cmake .
+    mkdir build
+    cd build
+    cmake ..
     make
     ```
 
